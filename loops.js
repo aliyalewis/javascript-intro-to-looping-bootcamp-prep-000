@@ -1,7 +1,8 @@
 function forLoop(array) {
   for (var i = 0; i < 25; i++);
-  if (var = 1); {
-  return "I am 1 strange loop."
+  if (i === 1); {
+  array.push("I am 1 strange loop.");
+  return array
 }else
   return ` I am ${i} strange loops.`
 }
